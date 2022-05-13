@@ -1,0 +1,108 @@
+/* options/select wrapper with switch anchors */
+.cbp-vm-options a {
+	display: inline-block;
+	height:20px;
+	width: 20px;
+	overflow: hidden;
+	color: #d0d0d0;
+	margin: 2px;
+}
+.cbp-vm-options a:before {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+/* Clear eventual floats */
+.cbp-vm-switcher ul:after { 
+	clear: both; 
+}
+.cbp-vm-image img {
+	display: inline-block;
+	max-width: 100%;
+	border: none;
+}
+/* Common icon styles */
+.cbp-vm-grid:before {
+	content: " ";
+	background: url(../images/grid_view.png)no-repeat;
+}
+.cbp-vm-list:before {
+	content: " ";
+	background: url(../images/list_view.png)no-repeat;
+}
+.cbp-vm-view-grid ul li {
+	width: 33%;
+	text-align: center;
+	margin: 20px 0 0;
+	display: inline-block;
+	padding:5px;
+}
+.cbp-vm-view-list .cbp-vm-price {
+	font-size: 1.3em;
+	width: 10%;
+}
+.cbp-vm-view-list .cbp-vm-details {
+	width: 50%;
+	padding: 0 60px;
+	overflow: hidden;
+	white-space: normal;
+	font-size: 11;
+	color: #999;
+}
+.cbp-vm-view-list .cbp-vm-add {
+	margin: 0;
+}
+.cbp-vm-view-grid ul li {
+    width: 32.9%;
+}
+@media (max-width:1199px){
+	.cbp-vm-view-grid ul li {
+		width: 32.9%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.cbp-vm-view-grid ul li {
+		width: 32.8%;
+	}
+}
+@media (max-width:576px){
+	.cbp-vm-view-grid ul li {
+		width: 100%;
+		max-width: 269px;
+		margin: auto;
+		display: block;
+		margin-top: 10px;
+	}
+.cbp-vm-view-list .cbp-vm-image {
+	width: 33%;
+}
+}
+@media (max-width:480px){
+.cbp-vm-view-list .cbp-vm-details {
+	width:30%;
+	padding: 0 10px;
+}
+.span_1_of_contact {
+	width: 100%;
+}
+.lcontact {
+	float:none;
+	margin:0;
+}
+.span_2_of_contact_right {
+	width: 100%;
+}
+.contact_grid {
+	display: block;
+	float: none;
+}
+.contact-form input[type="submit"] {
+	padding: 10px 20px;
+	font-size: 0.85em;
+	margin-bottom:2em;
+}
+.register-top-grid div, .register-bottom-grid div {
+	width: 98%;
+	float: none;
+}
+}
